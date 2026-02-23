@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 
 @Getter
 @AllArgsConstructor
-@NoArgsConstructor // For serialization if needed
+@NoArgsConstructor  
 public class UserPrincipal implements UserDetails {
 
     private Long userId;
